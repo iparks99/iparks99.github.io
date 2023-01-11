@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgithub_pages"]=self["webpackChunkgithub_pages"]||[]).push([[47],{6047:function(e,n,u){u.r(n),u.d(n,{default:function(){return s}});var r=u(3396);function t(e,n){return(0,r.wg)(),(0,r.iD)("h1",null,"Cookie Policy")}var i=u(89);const a={},c=(0,i.Z)(a,[["render",t]]);var s=c}}]);
+//# sourceMappingURL=47.73ab20e3.js.map
