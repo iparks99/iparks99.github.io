@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Cybersecurity Engineer",
+    "company": "MITRE · McLean, VA",
+    "summary": "Active TS/SCI Security Clearance.",
+    "range": "July 2021 - Present"
+  },
+  {
+    "role": "Naval Air Systems Command Intern",
+    "company": "NAVAIR · Patuxent River, MD",
+    "summary": "Reverse engineering and vulnerability assessment.",
+    "range": "May 2020 - August 2020"
+  },
+  {
+    "role": "Computer Science Teaching Assistant",
+    "company": "UMD · College Park, MD",
+    "summary": "TA for two computer science classes related to data structures and organization of programming languages.",
+    "range": "August 2019 - May 2020"
+  },
+  {
+    "role": "Junior Software Engineer",
+    "company": "Interclypse · Annapolis Junction, MD",
+    "summary": "Wrote Java code for end-user projects. Worked in a team and used Git, Spring, MongoDB, Maven, and more. Spent three months of full-stack design and Spring Security. Used Selenium for test automation.",
+    "range": "May 2020 - August 2020"
+  }
+]

@@ -1,0 +1,22 @@
+baseURL = 'https://iparks99.github.io/'
+languageCode = 'en-us'
+title = 'Ian Parks'
+theme = 'hugo-resume'
+
+[params]
+firstName = 'Ian'
+lastName = 'Parks'
+address = 'Maryland, USA'
+email = 'ian.parks99@gmail.com'
+showContext = true
+showSocializations = true
+profileImage = 'img/profile_pic.png'
+sections = ['experience', 'skills', 'education']
+
+[[params.handles]]
+link = 'https://www.linkedin.com/in/ian-parks-81081814a'
+name = 'LinkedIn'
+
+[[params.handles]]
+link = 'https://github.com/iparks99'
+name = 'GitHub'

@@ -1,0 +1,12 @@
+[
+  {
+    "grouping": "Programming Languages",
+    "skills": [ "Java", "Kotlin", "JavaScript", "Dart", "Python", "C", "HTML", "CSS" ]
+  },{
+    "grouping": "Full-Stack Development",
+    "skills": [ "MongoDB", "ElasticSearch", "Spring", "React", "VueJS", "Flutter", "Hugo", "GraphQL" ]
+  },{
+    "grouping": "Tools, Concepts, and Cloud",
+    "skills": [ "Google Cloud Platform", "Docker", "Linux", "SonarQube", "Selenium", "Jest", "Jenkins", "Git" ]
+  }
+]

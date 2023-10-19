@@ -1,0 +1,28 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="presentations">
+  <div class="my-auto" id="presentations-content">
+  <h2 class="mb-5">{{ i18n "presentations" }}</h2>
+    {{ range $.Site.Data.presentations }}
+        <div class="subheading mb-3 presentations-heading">{{ .grouping }}</div>
+            <ul>
+            {{ range .presentations }}
+                {{ if isset . "name" }}
+                    {{ $devicon := cond (in $.Site.Data.devicons (lower .icon)) (lower .icon) (cond (in $.Site.Data.devicons (lower .name)) (lower .name) "terminal_badge") }}
+                    <li class="list-inline-item">
+                      <i class="devicons devicons-{{ $devicon }}"></i>
+                      {{if isset . "link"}}
+                          <a href="{{.link}}">{{ .name }}</a>
+                      {{ else }}
+                          {{ .name }}
+                      {{ end }}
+                    </li>
+                {{ else }}
+                  <li class="list-inline-item">
+                    <i class="devicons devicons-{{ cond (in $.Site.Data.devicons (lower .)) (lower .) "terminal_badge" }}"></i>
+                    {{ . }}
+                  </li>
+                {{ end }}
+            {{ end }}
+            </ul>
+    {{ end }}
+  </div>
+</section>
