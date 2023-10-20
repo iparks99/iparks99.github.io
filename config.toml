@@ -11,7 +11,7 @@ email = 'ian.parks99@gmail.com'
 showContext = true
 showSocializations = true
 profileImage = 'img/profile_pic.png'
-sections = ['skills', 'education']
+sections = ['experience', 'skills', 'education']
 
 [[params.handles]]
 link = 'https://www.linkedin.com/in/ian-parks-81081814a'
